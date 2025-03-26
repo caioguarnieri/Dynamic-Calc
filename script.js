@@ -8,10 +8,6 @@ let textoDoNumero = document.createTextNode(`O número ${userNumberedata} foi ad
 numeroAdicionado.appendChild(textoDoNumero);
 let teste = document.getElementById('flista').appendChild(numeroAdicionado);
 
-console.log(teste);
-
-
-
 
 function validar0a100(userNumberedata){
     if (userNumberedata > -1 && userNumberedata < 101){
@@ -21,10 +17,5 @@ function validar0a100(userNumberedata){
 };
 
 
-
-
-
-}
-console.log(userNumber);
-console.log(validationResult);
+ }
 }
