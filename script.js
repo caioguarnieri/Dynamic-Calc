@@ -1,5 +1,4 @@
 let numbers = [];
-
 function adicionar() {
   let userNumber = Number(window.document.getElementById("fnum").value);
   let userNumberedata = userNumber;
