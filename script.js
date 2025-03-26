@@ -32,10 +32,7 @@ function finalizar() {
   let biggerNumber = Number(Math.max(...numbers));
   let smallestNumber = Number(Math.min(...numbers));
   let soma1 = 0;
-  let somar = numbers.reduce(
-    (accumulator, currentValue) => accumulator + currentValue,
-    soma1
-  );
+  let somar = numbers.reduce((accumulator, currentValue) => accumulator + currentValue,soma1);
   let average = somar / totalNumbers;
 
   answer.innerHTML = `<p>Ao todo temos <strong>${totalNumbers}</strong> numeros cadastrados</p>
