@@ -35,7 +35,7 @@ function finalizar() {
   let somar = numbers.reduce((accumulator, currentValue) => accumulator + currentValue,soma1);
   let average = somar / totalNumbers;
 
-  answer.innerHTML = `<p>Ao todo temos <strong>${totalNumbers}</strong> numeros cadastrados</p>
+  answer.innerHTML = `  <p>Ao todo temos <strong>${totalNumbers}</strong> numeros cadastrados</p>
                         <p>O maior número é <strong>${biggerNumber}</strong> </p> 
                         <p>O menor número é <strong>${smallestNumber}</strong> </p>     
                         <p>A soma de todos os números é <strong>${somar}</strong> </p>
