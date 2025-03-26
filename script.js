@@ -9,6 +9,7 @@ numeroAdicionado.appendChild(textoDoNumero);
 let teste = document.getElementById('flista').appendChild(numeroAdicionado);
 
 
+
 function validar0a100(userNumberedata){
     if (userNumberedata > -1 && userNumberedata < 101){
     validationResult = true;
